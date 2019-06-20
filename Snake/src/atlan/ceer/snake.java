@@ -13,7 +13,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-
+//test
 public class snake extends JFrame {
 	private static int height = 500;
 	private static int width = 500;
@@ -43,7 +43,7 @@ public class snake extends JFrame {
 	}
 
 	public snake() {
-		this.setTitle("贪吃蛇");//设置窗口的名称
+		this.setTitle("贪吃蛇窗口");//设置窗口的名称
 		this.setResizable(false);// 不能改变大小
 		this.setSize(500, 500);// 界面大小
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// 设置关闭
