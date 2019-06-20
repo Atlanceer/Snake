@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 public class snake extends JFrame {
 	private static int height = 500;
 	private static int width = 500;
-	// private int score = 0;
+	// private int score = 0;//记录分数，还未实现
 	private int compare = 1;
 	private Point point = new Point();// 食物
 	private Point boom = new Point();// 炸弹
